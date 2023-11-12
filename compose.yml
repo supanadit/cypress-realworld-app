@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  apps:
+    image: test-cypress:latest
+    ports:
+      - "3001:3001"
+      - "3000:3000"
